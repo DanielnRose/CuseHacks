@@ -1,0 +1,52 @@
+body {
+  background-color: lightblue;
+  /* background: url("hackersmile.jpg"); */
+  background-size: cover;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+h2 {
+  font-size: 32px;
+}
+p {
+  color: black;
+  margin-left: 30px;
+}
+.container {
+  text-align: center;
+  margin: auto;
+  padding: 0px 0px;
+}
+.containerforors {
+  text-align: center;
+  margin: auto;
+  padding: 0px 0px;
+}
+
+button {
+  background: url("hackersmile.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(255, 144, 40);
+  background-color: #2753cc;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left: auto;
+  margin-right: auto;
+}
+button:hover {
+  background-color: #50af50;
+  color: white;
+}

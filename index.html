@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="vonclick="document.getElementById('demo').innerHTML = Date()">
+    <title>HTML5 project</title>
+    <meta name="description" content="A template for CuseHacks 2022." />
+    <meta name="author" content="Shane Sefransky" />
+
+    <meta property="og:title" content="HTML5 Project" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="insert url here" />
+    <meta property="og:description" content="A template for CuseHacks 2022." />
+    <!--<meta property="og:image" content="image.png">-->
+
+    <link rel="stylesheet" href="styles.css?v=1.0" />
+  </head>
+  <body onload="onLoad()">
+    <h1 id="title">Hacker Smile</h1>
+    <p id="story">
+      Welcome to the life of HackerSmile - the man of peculiar taste and skill.
+      You wake up on a Monday morning in the tropical, sunny city of Syracuse,
+      NY. What do you do?
+    </p>
+    <!--<script src="js/scripts.js"></script>-->
+    <script src="program.js"></script>
+  </body>
+  <div class="container" id="buttonContainer">
+    <button type="button button1" onclick="button1()" id="b1">
+      Brush Teeth
+    </button>
+  </div>
+  <div id="or1" class="containerforors">
+    <p class="ors">OR</p>
+  </div>
+  <div class="container">
+    <button type="button button1" onclick="button2()" id="b2">
+      Eat Pasta
+    </button>
+  </div>
+  <div id="or2" class="containerforors">
+    <p class="ors">OR</p>
+  </div>
+  <div class="container">
+    <button type="button button1" onclick="button3()">
+      Snooze the alarm
+    </button>
+  </div>
+  <p id="demo"></p>
+</html>
