@@ -5,54 +5,55 @@ Option 1 $1
 Option 2 $2 
 Option 3 $4 
 
-#1 Good Morning!!
+#1  Good Morning!!
 You Wake up in the morning
 Brush Teeth $2
 Eat Pasta $6
 Snooze the alarm $3
 
-#2 Brush Teeth
+#2  Brush Teeth
 You encounter the only stage in your life where the taste of mint is allowed to grace the presence of your tongue. Getting ready for the day, what do you plan to do next?
 Eat Pasta $6
 Go to Class $7
 Go Back to Sleep $3
 
-#3 You're Late!!!
+#3  You're Late!!!
 You arrived late for your film history class! After the awkward moment where you are given a haunting glare by the professor, you sit down in the back row. What do you do in class?
 Go on your phone $4
 Ditch class $8
 Book it!!! $7
 
-#4 You walk into the dome and there is a basketball game on, what do you do?
+#4  You walk into the dome
+There is a basketball game on, what do you do?
 Sneak into an employee only area $5
 Watch the game $6
 wake up $1
 
-#5 You run into a DPS officer on patrol. 
+#5  You run into a DPS officer on patrol. 
 He pulls you aside and demands to know what you are doing in a restricted zone. You are scared, not for being caught, but for what is to come. What is your response? 
-"Get lost, cop" $1
+"Get lost, cop" $18
 Juke around him $14
-Try to slip into the crowd $1
+Try to slip into the crowd $19
 
-#6 Watch the Game
+#6  Watch the Game
 You enjoy watching Buddy Buckets sink shot after shot, one after another.
 End? $6
 End! $6
 Wake Up $1
 
-#7 Classtime!!!
+#7  Classtime!!!
 You walk from the College Place bus stop to the second-most confusing building on campus, the Newhouse complex. As you reach you first class of the day, how do you spend you classtime?
 Browse Reddit on your phone $8
 Pay attention $10
 Catch some Zzzzs $1
 
-#8 Fail the Semester :(
+#8  Fail the Semester :(
 You lose focus and are unable to catch back up to the /"rigors/" of the courseload of a Film major. Your parents become disappointed and lose faith in you. The dream of being the next Spielberg is crushed under the weight of collapsing expectations and failure. Tears roll down your eyes.
 End $8
 End $8
 But it was only a dream? $1
 
-#9 Scolded by the Teacher
+#9  Scolded by the Teacher
 The teacher talks to you after class, "Why are you not paying attention in class?"
 I hate this class. $1
 Your teaching is terrible. $1
@@ -77,18 +78,52 @@ Win $1
 Win $1
 
 #13 Where do you want to go?
-
+You wander around campus, looking for a place to be. Where do you go?
 Carrier Dome $4
 Life Sciences $
 nothing $
 
 #14 What do you do next?
-blah
-Climb into a vent $
-Jump out window $
+After juking out the officer, they follow in pursuit. Its now or never, you are losing ground and soon you will be captured. Running down the halls, you see an opportunity to get away! You...
+Climb into a vent (SUS) $15
+Jump out window $18
 Hack into computer $
 
+#15 Escape back to apartment
+After the long day that you have gone through, you start to feel hunger. You decide to make dinner. What do you make?
+Pasta $17
+Chicken $16
+nothing $
 
+#16 Rushed to hospital!
+The chicken gave you salmonella. As your diet traditionally consists of pasta and the occasional hot dog, your immune system fails you. Death calls for you as you feel a sharp pain and then nothing... just a lingering numbness all over. Sirens blare, but they fade as well. You Died.
+dead $
+dead $
+dead $
+
+#17 Pasta!!!!
+As the water boils, you can smell the boxed penne enter the water. After the timer elapses, you prepare a small plain bowl and a glob of butter. As the butter seeps into the Tops Brand penne, the sound of opening a container of the blend of Asiago and Parmesan resonates in the cramped kitchen of your South Campus Apartment. You sprinkle in the cheese and start to savor each bite. Heaven truly is a place on Earth.
+win $
+win $
+win $
+
+#18 Jail Time
+Go to jail. If you pass GO, do not collect 200 dollars.
+Hack your way out of jail $
+nothing $
+nothing $
+
+#19 Wrong Crowd?
+As you slip past the gaze of the DPS officer, you wander along with the crowd into a locker room?!? You are now led to a locker, with a Syracuse University basketball jersey staring you down.
+Don the jersey $20
+Leave the locker room stealthily $15
+Panic $5
+
+#20 Watch the Game
+After donning the jersey, you follow the crowd of basketball players, who do not realize that there is a five foot seven player among them. This results in being able to watch the game from the best seats in the house.
+Win $
+Wake Up $1
+Panic $5
 `;
 
 let sp;
@@ -226,7 +261,7 @@ function update(buttonPressed) {
   reference = pointer;
   let titleOfSection = document.createElement("h2");
   console.log(sp[reference]);
-  titleOfSection.textContent = sp[reference].getTitle().substring(1);
+  titleOfSection.textContent = sp[reference].getTitle().substring(2);
   console.log("pt5");
   let textToAdd = document.createTextNode(sp[reference].text);
   //document.getElementById("story").appendChild("br");
