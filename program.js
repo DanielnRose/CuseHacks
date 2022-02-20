@@ -8,14 +8,14 @@ Option 3 $4
 #1  Good Morning!!
 You Wake up in the morning
 Brush Teeth $2
-Eat Pasta $6
+Eat Pasta $21
 Snooze the alarm $3
 
 #2  Brush Teeth
 You encounter the only stage in your life where the taste of mint is allowed to grace the presence of your tongue. Getting ready for the day, what do you plan to do next?
 Eat Pasta $6
 Go to Class $7
-Go Back to Sleep $3
+Go to campus $13
 
 #3  You're Late!!!
 You arrived late for your film history class! After the awkward moment where you are given a haunting glare by the professor, you sit down in the back row. What do you do in class?
@@ -80,14 +80,14 @@ Win $1
 #13 Where do you want to go?
 You wander around campus, looking for a place to be. Where do you go?
 Carrier Dome $4
-Life Sciences $
-nothing $
+Life Sciences $4
+nothing $4
 
 #14 What do you do next?
 After juking out the officer, they follow in pursuit. Its now or never, you are losing ground and soon you will be captured. Running down the halls, you see an opportunity to get away! You...
 Climb into a vent (SUS) $15
 Jump out window $18
-Hack into computer $
+Hack into computer $23
 
 #15 Escape back to apartment
 After the long day that you have gone through, you start to feel hunger. You decide to make dinner. What do you make?
@@ -108,10 +108,10 @@ win $
 win $
 
 #18 Jail Time
-Go to jail. If you pass GO, do not collect 200 dollars.
-Hack your way out of jail $
-nothing $
-nothing $
+You have been caught, go to jail! If you pass GO, do not collect 200 dollars.
+Hack your way out of jail $22
+Wait out your 12 year sentence $22
+Eat Pasta in jail $22
 
 #19 Wrong Crowd?
 As you slip past the gaze of the DPS officer, you wander along with the crowd into a locker room?!? You are now led to a locker, with a Syracuse University basketball jersey staring you down.
@@ -124,6 +124,25 @@ After donning the jersey, you follow the crowd of basketball players, who do not
 Win $
 Wake Up $1
 Panic $5
+
+#21 Breakfast of Champions
+After ascertaining the ultimate breakfast food, the day begins. Following the consumption of ungodly amounts of penne, the time comes for one to start the journey to class.
+Go to Class $7
+Browse Reddit $3
+Ditch Class $8
+
+#22 Your jail time is finished!
+You are a free hacker man! What do you do now?
+Go to class $7
+Go to sleep $1
+Use your alumni status to get into an SU basketball game $4
+
+#23 Computer hacked!
+You have managed to hack into the computer! What do you do?
+Change your GPA $18
+Apply for a position working for the FBI (Online Interview) $12
+Gossip on the internet $18
+
 `;
 
 let sp;
