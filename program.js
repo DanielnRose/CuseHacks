@@ -15,13 +15,13 @@ Snooze the alarm $3
 You encounter the only stage in your life where the taste of mint is allowed to grace the presence of your tongue. Getting ready for the day, what do you plan to do next?
 Eat Pasta $6
 Go to Class $7
-Go to campus $13
+Go to Campus $13
 
 #3  You're Late!!!
 You arrived late for your film history class! After the awkward moment where you are given a haunting glare by the professor, you sit down in the back row. What do you do in class?
-Go on your phone $4
+Go on your phone $8
 Ditch class $8
-Book it!!! $7
+Book it!!! $5
 
 #4  You walk into the dome
 There is a basketball game on, what do you do?
@@ -60,7 +60,7 @@ Your teaching is terrible. $1
 I was just checking the weather, I will pay attention next time. $11
 
 #10 Ace the Class!!!
-By paying attention to the professor, you did what no other before you has done - pass the class. Given its notorious difficulty, the course has, in the long history of SU, never been successfully passed. You were given an opportunity from the professor to meet with a potential employer! One who may be your entry into your dream of film production!!!
+By paying attention to the professor & studying, you did what no other before you has done - pass the class. Given its notorious difficulty, the course has, in the long history of SU, never been successfully passed. You were given an opportunity from the professor to meet with a potential employer! One who may be your entry into your dream of film production!!!
 Take the Interview!! $11
 Leave for the Day $1
 Wake Up $1
@@ -80,8 +80,8 @@ Win $1
 #13 Where do you want to go?
 You wander around campus, looking for a place to be. Where do you go?
 Carrier Dome $4
-Life Sciences $4
-nothing $4
+Life Sciences $24
+Schine $25
 
 #14 What do you do next?
 After juking out the officer, they follow in pursuit. Its now or never, you are losing ground and soon you will be captured. Running down the halls, you see an opportunity to get away! You...
@@ -138,10 +138,28 @@ Go to sleep $1
 Use your alumni status to get into an SU basketball game $4
 
 #23 Computer hacked!
-You have managed to hack into the computer! What do you do?
+You have managed to hack into a computer! What do you do?
 Change your GPA $18
-Apply for a position working for the FBI (Online Interview) $12
+Apply for a job in film (Online Interview) $12
 Gossip on the internet $18
+
+#24 You walk into LSB
+What do you do?
+Hack into a computer $23
+Study for your next exam $10
+Fall asleep $1
+
+#25 You walk into Schine
+There's so much to eat! What do you eat?
+Dunkin Donuts $26
+Nothing (Go home and go to sleep) $1
+Make pasta in the middle of schine $17
+
+#26 Rushed to the hospital!
+The pink-frosted sprinkled donut you ate made you sick! You are rushed to the hospital, but there is little hope for recovery...
+dead $
+dead $
+dead $
 
 `;
 
